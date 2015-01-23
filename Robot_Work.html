@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+
+	<!--
+	Thanks for looking at our source code! This webpage was developed for the 
+	Michelle Gagnon's Personal Page in 2015. For questions, contact megagnon@wpi.edu
+	-->
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>RBE 1001 E-Book</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- CSS for this page -->
+	<link href="css/theme.css" rel="stylesheet">
+
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+
+	<script>
+
+	// Google Analytics
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56500225-1', 'auto');
+  ga('send', 'pageview');
+
+  	// Used for the concept check questions
+  	function updateParagraph(radio, target, paragraph){
+    	$(target).html(paragraph);
+    	$(radio).prop("checked", true);
+	}
+
+	</script>
+
+</head>
+
+<body role="document">
+
+
+<!-- this is the big welcome thing at the top -->
+<br/>
+<div class="container theme-showcase" role="main">
+<!-- CONTENT BEGIN -->
+<div class="jumbotron">
+	<div class="row">
+	<div class="col-md-8">
+		<h1>Michelle Gagnon</h1>
+		<p>Robotics Engineering/Professional Writing</p>
+	</div>
+	</div>
+</div>
+
+<!-- This is the thing that makes the popup window. Don't worry about it -->
+<SCRIPT TYPE="text/javascript">
+<!--
+function popup(mylink, windowname)
+{
+if (! window.focus)return true;
+var href;
+if (typeof(mylink) == 'string')
+   href=mylink;
+else
+   href=mylink.href;
+window.open(href, windowname, 'width=600,height=600,scrollbars=yes');
+return false;
+}
+</SCRIPT>
+
+<!-- Actual learning content goes here. See Circuits.html for what that should look like -->
+<h3>RBE 1001 E-Book</h3>
+<A HREF="http://users.wpi.edu/~RBE1001book" 
+   onClick="return popup(this, 'Main Page')">Main Page</A>
+<br>
+<A HREF="http://users.wpi.edu/~RBE1001book/Transmissions.html" 
+   onClick="return popup(this, 'Transmissions')">Power Transmissions</A>
+<br>
+<A HREF="http://users.wpi.edu/~RBE1001book/Circuits.html" 
+   onClick="return popup(this, 'Circuits')">Circuits</A>
+<br>
+<A HREF="http://users.wpi.edu/~RBE1001book/Sensors.html" 
+   onClick="return popup(this, 'Sensors')">Sensors</A>
+<br>
+<A HREF="http://users.wpi.edu/~RBE1001book/Programming.html" 
+   onClick="return popup(this, 'Programming')">Programming in C</A>
+<br>
+<A HREF="http://users.wpi.edu/~RBE1001book/StateProgramming.html" 
+   onClick="return popup(this, 'State')">State Programming</A>
+<br><br>
+
+<h3>Industrial Robotics Project Videos</h3>
+<iframe width="560" height="315" src="//www.youtube.com/embed/v7N3dFuHsKU" frameborder="0" allowfullscreen></iframe>
+<br>
+<div class="row">
+	<div class="col-md-8"><p>This is a video of a simulation of the ABB Robot in the Washburn Machine shops at WPI. The robot was programmed to pick up Lincoln Logs and place them in the correct order to build a house. Because of scheduling conflicts, the team was not able to get a recording of the robot executing the full program, but this simulation is an accurate representation of the final product.</p></div>
+</div>
+<br><br>
+<iframe width="420" height="315" src="//www.youtube.com/embed/1iY0HKubxhs" frameborder="0" allowfullscreen></iframe>
+<br>
+<div class="row">
+	<div class="col-md-8"><p>This is a simulation of the sorting algorithm given to the ABB robot. The blocks were placed in a feeder station. The feeder station had sensors to determine the size of the block about to be picked up. If the block picked up was the correct size, the robot would place it in the house. If the block was the incorrect size, the robot would place it in a separate holding area. The program was created using a psuedo-random sequence; that is, it used a perfect sequence of blocks with ten extra blocks placed in random places. This simulation was created because the code was finished weeks before the robot was ready for actual testing.</p></div>
+</div>
+<br><br>
+
+
+<!-- CONTENT END -->
+</div>
+
+<div class="container"><hr></div>
+
+<!-- Footer, don't edit this -->
+<div class="footer">
+	<div class="container">
+		<p class="text-muted">This site is part of The RBE 1001 E-Textbook Interactive Qualifying Project. By using this site, you agree to our <a href="about.html">Terms of Service</a></p>
+	</div>
+</div>
+
+</body>
+</html>	
